@@ -16,9 +16,10 @@ class Shutter(ABC):
         pass
 
 class ShutterLivingRomm(Shutter):
-    def __init__(self,ip,apiKey):
-        self.ip = ip
-        self.apiKey = apiKey
+    # Wywołanie metody init jest tu zbędne - masz taką samą w klasie z której dziedziczysz :) Gdybyś coś zmieniał, to wtedy tak.
+    #def __init__(self,ip,apiKey):
+    #    self.ip = ip
+    #    self.apiKey = apiKey
 
     def ReadLevel(self):
         try:
